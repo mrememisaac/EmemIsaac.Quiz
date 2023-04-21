@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76BCCB7D-FC85-49EE-BBAB-0C0DF66A4430}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A14C7DE3-48D9-49D7-B1A6-8754D2FE7E27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6A18FB84-4F5C-4D09-9C09-07DA998B0F56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5AC54C84-C556-413E-AF11-B11E6237DFC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{25605266-B42B-4D66-80AF-0E8CB12D8EF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{9133E17A-5C0F-4E13-9E0B-9123E4D1D171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmemIsaac.Quiz.Domain", "EmemIsaac.Quiz.Domain\EmemIsaac.Quiz.Domain.csproj", "{F561297D-81CA-47E8-B998-8133EA27623D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F561297D-81CA-47E8-B998-8133EA27623D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F561297D-81CA-47E8-B998-8133EA27623D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F561297D-81CA-47E8-B998-8133EA27623D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F561297D-81CA-47E8-B998-8133EA27623D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A18FB84-4F5C-4D09-9C09-07DA998B0F56} = {76BCCB7D-FC85-49EE-BBAB-0C0DF66A4430}
+		{5AC54C84-C556-413E-AF11-B11E6237DFC7} = {76BCCB7D-FC85-49EE-BBAB-0C0DF66A4430}
+		{25605266-B42B-4D66-80AF-0E8CB12D8EF2} = {76BCCB7D-FC85-49EE-BBAB-0C0DF66A4430}
+		{9133E17A-5C0F-4E13-9E0B-9123E4D1D171} = {76BCCB7D-FC85-49EE-BBAB-0C0DF66A4430}
+		{F561297D-81CA-47E8-B998-8133EA27623D} = {5AC54C84-C556-413E-AF11-B11E6237DFC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43B0F0CF-8227-490E-B6F6-336BC786C54C}
+	EndGlobalSection
+EndGlobal
