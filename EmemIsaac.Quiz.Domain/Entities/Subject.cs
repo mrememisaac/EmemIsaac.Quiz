@@ -1,8 +1,15 @@
-namespace Quiz.Domain.Entities;
+using EmemIsaac.Quiz.Domain.Common;
 
-public class Subject
+namespace EmemIsaac.Quiz.Domain.Entities;
+
+public class Subject : AuditableEntity
 {
-    public int SubjectId {get; set; }
+    public Guid SubjectId {get; set; }
 
     public string SubjectName {get; set; } = string.Empty;
+
+    public string SubjectDescription {get; set; } = string.Empty;
+
+    public string SubjectImageUri { get; set; } = string.Empty;
+
 }

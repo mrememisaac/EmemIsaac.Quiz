@@ -1,4 +1,4 @@
-namespace Quiz.Domain.Entities;
+namespace EmemIsaac.Quiz.Domain.Entities;
 
 public enum OptionType
 {
