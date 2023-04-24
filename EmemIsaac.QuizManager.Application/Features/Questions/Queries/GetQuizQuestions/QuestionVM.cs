@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmemIsaac.Quiz.Application.Features.Questions
+namespace EmemIsaac.QuizManager.Application.Features.Questions.Queries.GetQuizQuestions
 {
     public class QuestionVM
     {
-        public Guid SubjectId { get; set; }
+        public Guid QuizId { get; set; }
 
-        public Guid QuestionId { get; set; }
+        public Guid Id { get; set; }
 
         public string QuestionText { get; set; } = string.Empty;
 

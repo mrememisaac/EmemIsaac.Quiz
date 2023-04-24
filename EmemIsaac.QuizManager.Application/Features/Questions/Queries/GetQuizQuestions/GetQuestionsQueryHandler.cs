@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using EmemIsaac.Quiz.Application.Contracts.Persistence;
+using EmemIsaac.QuizManager.Application.Contracts.Persistence;
 using MediatR;
 
-namespace EmemIsaac.Quiz.Application.Features.Questions
+namespace EmemIsaac.QuizManager.Application.Features.Questions.Queries.GetQuizQuestions
 {
     public class GetQuestionsQueryHandler : IRequestHandler<GetQuestionsQuery, List<QuestionVM>>
     {
