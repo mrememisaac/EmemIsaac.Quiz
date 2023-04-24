@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using EmemIsaac.Quiz.Application.Contracts.Persistence;
+using EmemIsaac.QuizManager.Application.Contracts.Persistence;
 using MediatR;
 
-namespace EmemIsaac.Quiz.Application.Features.Options
+namespace EmemIsaac.QuizManager.Application.Features.Options.Queries.GetQuestionOptions
 {
     public class GetOptionsQueryHandler : IRequestHandler<GetOptionsQuery, List<OptionVM>>
     {
@@ -17,7 +17,7 @@ namespace EmemIsaac.Quiz.Application.Features.Options
 
         public async Task<List<OptionVM>> Handle(GetOptionsQuery request, CancellationToken cancellationToken)
         {
-            var options = (await _optionsRepository.GetByQuestionAsync(request.QuestionId));
+            var options = await _optionsRepository.GetByQuestionAsync(request.QuestionId);
             return _mapper.Map<List<OptionVM>>(options);
         }
     }

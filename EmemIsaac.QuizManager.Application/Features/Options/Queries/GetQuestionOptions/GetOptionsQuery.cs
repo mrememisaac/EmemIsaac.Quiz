@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace EmemIsaac.Quiz.Application.Features.Options
+namespace EmemIsaac.QuizManager.Application.Features.Options.Queries.GetQuestionOptions
 {
     public class GetOptionsQuery : IRequest<List<OptionVM>>
     {
