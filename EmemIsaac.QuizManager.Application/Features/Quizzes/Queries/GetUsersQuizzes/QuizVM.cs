@@ -1,6 +1,6 @@
-﻿namespace EmemIsaac.Quiz.Application.Features.Subjects;
+﻿namespace EmemIsaac.QuizManager.Application.Features.Quizzes.Queries.GetUsersQuizzes;
 
-public class SubjectVM
+public class QuizVM
 {
     public Guid SubjectId { get; set; }
 
