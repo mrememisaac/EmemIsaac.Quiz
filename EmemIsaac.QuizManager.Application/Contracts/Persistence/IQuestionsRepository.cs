@@ -1,6 +1,6 @@
-﻿using EmemIsaac.Quiz.Domain.Entities;
+﻿using EmemIsaac.QuizManager.Domain.Entities;
 
-namespace EmemIsaac.Quiz.Application.Contracts.Persistence
+namespace EmemIsaac.QuizManager.Application.Contracts.Persistence
 {
     public interface IQuestionsRepository : IAsyncRepository<Question, Guid>
     {
