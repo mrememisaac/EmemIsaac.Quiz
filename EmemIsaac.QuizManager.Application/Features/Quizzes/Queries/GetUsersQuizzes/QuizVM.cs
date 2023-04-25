@@ -2,12 +2,12 @@
 
 public class QuizVM
 {
-    public Guid SubjectId { get; set; }
+    public Guid Id { get; set; }
 
-    public string SubjectName { get; set; } = string.Empty;
+    public string Name { get; set; } = string.Empty;
 
-    public string SubjectDescription { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
 
-    public string SubjectImageUri { get; set; } = string.Empty;
+    public string ImageUri { get; set; } = string.Empty;
 
 }
