@@ -15,9 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{9133E17A-5C0F-4E13-9E0B-9123E4D1D171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmemIsaac.Quiz.Domain", "EmemIsaac.Quiz.Domain\EmemIsaac.Quiz.Domain.csproj", "{F561297D-81CA-47E8-B998-8133EA27623D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmemIsaac.QuizManager.Domain", "EmemIsaac.QuizManager.Domain\EmemIsaac.QuizManager.Domain.csproj", "{F561297D-81CA-47E8-B998-8133EA27623D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmemIsaac.Quiz.Application", "EmemIsaac.Quiz.Application\EmemIsaac.Quiz.Application.csproj", "{C146BAF2-7C5E-4FB4-80FA-3EFC2F94F5AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmemIsaac.QuizManager.Application", "EmemIsaac.QuizManager.Application\EmemIsaac.QuizManager.Application.csproj", "{C146BAF2-7C5E-4FB4-80FA-3EFC2F94F5AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

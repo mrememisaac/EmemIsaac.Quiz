@@ -12,7 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EmemIsaac.Quiz.Domain\EmemIsaac.Quiz.Domain.csproj" />
+    <ProjectReference Include="..\EmemIsaac.QuizManager.Domain\EmemIsaac.QuizManager.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Options\Commands\" />
+    <Folder Include="Features\Questions\Commands\" />
+    <Folder Include="Features\Quizzes\Commands\RemoveQuiz\" />
   </ItemGroup>
 
 </Project>
