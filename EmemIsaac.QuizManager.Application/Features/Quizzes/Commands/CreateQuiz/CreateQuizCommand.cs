@@ -1,27 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
 
 namespace EmemIsaac.QuizManager.Application.Features.Quizzes.Commands.CreateQuiz
 {
-    public class CreateQuizCommand
+    public class CreateQuizCommand : IRequest<Guid>
     {
-    }
+        public Guid Id { get; set; }
 
-    public class CreateQuizCommandHandler
-    {
+        public string Name { get; set; } = string.Empty;
 
-    }
+        public string Description { get; set; } = string.Empty;
 
-    public class UpdateQuizCommand
-    {
-
-    }
-
-    public class UpdateQuizCommandHandler
-    {
-
+        public string ImageUri { get; set; } = string.Empty;
     }
 }
