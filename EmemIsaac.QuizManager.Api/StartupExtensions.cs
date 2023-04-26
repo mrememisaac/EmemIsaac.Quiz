@@ -15,12 +15,21 @@ namespace EmemIsaac.QuizManager.Api
             {
                 options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             });
+            builder.Services.AddSwagger();
+
 
             return builder.Build();
         }
 
         public static WebApplication ConfigurePipeline(this WebApplication app)
         {
+            if(app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI(config => {
+                    config.SwaggerEndpoint("/swagger/v1/swagger.json", "QuizManager Quiz Management API");
+                });
+            }
             app.UseHttpsRedirection();
 
             app.UseRouting();
