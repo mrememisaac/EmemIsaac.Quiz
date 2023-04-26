@@ -1,8 +1,6 @@
-﻿using MediatR;
-
-namespace EmemIsaac.QuizManager.Application.Features.Quizzes.Commands.CreateQuiz
+﻿namespace EmemIsaac.QuizManager.Application.Features.Quizzes.Commands.CreateQuiz
 {
-    public class CreateQuizCommand : IRequest<CreateQuizCommandResponse>
+    public class CreateQuizDto
     {
         public Guid Id { get; set; }
 

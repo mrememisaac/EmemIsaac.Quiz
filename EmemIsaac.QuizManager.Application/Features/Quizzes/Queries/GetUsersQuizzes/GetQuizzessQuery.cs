@@ -4,5 +4,5 @@ namespace EmemIsaac.QuizManager.Application.Features.Quizzes.Queries.GetUsersQui
 
 public class GetQuizzessQuery : IRequest<List<QuizVM>>
 {
-    public string? CreatorUserId { get; set; }
+    public string CreatorUserId { get; set; } = string.Empty;
 }

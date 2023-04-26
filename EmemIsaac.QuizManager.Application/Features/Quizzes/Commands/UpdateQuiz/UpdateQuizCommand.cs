@@ -2,7 +2,7 @@
 
 namespace EmemIsaac.QuizManager.Application.Features.Quizzes.Commands.UpdateQuiz
 {
-    public class UpdateQuizCommand : IRequest
+    public class UpdateQuizCommand : IRequest<UpdateQuizCommandResponse>
     {
         public Guid Id { get; set; }
 
