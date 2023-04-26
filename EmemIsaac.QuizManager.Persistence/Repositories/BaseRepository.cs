@@ -54,3 +54,4 @@ namespace EmemIsaac.QuizManager.Persistence.Repositories
             await _dbContext.SaveChangesAsync();
         }
     }
+}
