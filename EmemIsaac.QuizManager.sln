@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmemIsaac.QuizManager.Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmemIsaac.QuizManager.Application", "EmemIsaac.QuizManager.Application\EmemIsaac.QuizManager.Application.csproj", "{C146BAF2-7C5E-4FB4-80FA-3EFC2F94F5AF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmemIsaac.QuizManager.Persistence", "EmemIsaac.QuizManager.Persistence\EmemIsaac.QuizManager.Persistence.csproj", "{74ECAD7A-87E3-4597-A653-6D503FFCF121}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C146BAF2-7C5E-4FB4-80FA-3EFC2F94F5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C146BAF2-7C5E-4FB4-80FA-3EFC2F94F5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C146BAF2-7C5E-4FB4-80FA-3EFC2F94F5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74ECAD7A-87E3-4597-A653-6D503FFCF121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74ECAD7A-87E3-4597-A653-6D503FFCF121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74ECAD7A-87E3-4597-A653-6D503FFCF121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74ECAD7A-87E3-4597-A653-6D503FFCF121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{9133E17A-5C0F-4E13-9E0B-9123E4D1D171} = {76BCCB7D-FC85-49EE-BBAB-0C0DF66A4430}
 		{F561297D-81CA-47E8-B998-8133EA27623D} = {5AC54C84-C556-413E-AF11-B11E6237DFC7}
 		{C146BAF2-7C5E-4FB4-80FA-3EFC2F94F5AF} = {5AC54C84-C556-413E-AF11-B11E6237DFC7}
+		{74ECAD7A-87E3-4597-A653-6D503FFCF121} = {25605266-B42B-4D66-80AF-0E8CB12D8EF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43B0F0CF-8227-490E-B6F6-336BC786C54C}
