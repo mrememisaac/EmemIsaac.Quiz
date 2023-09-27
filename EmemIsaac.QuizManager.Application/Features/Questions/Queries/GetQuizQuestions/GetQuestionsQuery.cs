@@ -4,6 +4,6 @@ namespace EmemIsaac.QuizManager.Application.Features.Questions.Queries.GetQuizQu
 {
     public class GetQuestionsQuery : IRequest<List<QuestionVM>>
     {
-        public Guid SubjectId { get; set; }
+        public Guid QuizId { get; set; }
     }
 }
