@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <Folder Include="Features\Options\Commands\" />
-    <Folder Include="Features\Questions\Commands\" />
   </ItemGroup>
 
 </Project>
