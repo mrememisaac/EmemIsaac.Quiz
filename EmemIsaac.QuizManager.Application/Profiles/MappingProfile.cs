@@ -1,5 +1,9 @@
 ﻿using AutoMapper;
 using EmemIsaac.QuizManager.Application.Features.Options.Queries.GetQuestionOptions;
+using EmemIsaac.QuizManager.Application.Features.Questions.Commands.CreateQuestion;
+using EmemIsaac.QuizManager.Application.Features.Questions.Commands.DeleteQuestion;
+using EmemIsaac.QuizManager.Application.Features.Questions.Commands.UpdateQuestion;
+using EmemIsaac.QuizManager.Application.Features.Questions.Queries.GetQuestions;
 using EmemIsaac.QuizManager.Application.Features.Questions.Queries.GetQuizQuestions;
 using EmemIsaac.QuizManager.Application.Features.Quizzes.Commands.CreateQuiz;
 using EmemIsaac.QuizManager.Application.Features.Quizzes.Commands.DeleteQuiz;
@@ -20,6 +24,20 @@ namespace EmemIsaac.QuizManager.Application.Profiles
             CreateMap<CreateQuizCommand, Quiz>().ReverseMap();
             CreateMap<UpdateQuizCommand, Quiz>().ReverseMap();
             CreateMap<DeleteQuizCommand, Quiz>().ReverseMap();
+
+            CreateMap<CreateQuizDto, Quiz>().ReverseMap();
+
+            CreateMap<CreateQuestionCommand, Question>().ReverseMap();
+            CreateMap<UpdateQuestionCommand, Question>().ReverseMap();
+            CreateMap<DeleteQuestionCommand, Question>().ReverseMap();
+
+            CreateMap<CreateQuestionDto, Question>().ReverseMap();
+            CreateMap<UpdateQuestionDto, Question>().ReverseMap();
+            CreateMap<GetQuestionDto, Question>().ReverseMap();
+
+            CreateMap<CreateOptionCommand, Option>().ReverseMap();
+            CreateMap<UpdateOptionCommand, Option>().ReverseMap();
+
         }
     }
 }
