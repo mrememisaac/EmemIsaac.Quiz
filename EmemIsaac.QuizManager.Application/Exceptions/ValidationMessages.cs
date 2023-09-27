@@ -11,5 +11,7 @@ namespace EmemIsaac.QuizManager.Application.Common
         public static string RequiredMessage = "{PropertyName} is required";
 
         public static string MaximumLengthMessage(int maxLength) => "{PropertyName} must not exceed " + maxLength + " characters";
+        
+        public static string MinimumLengthMessage(int minLength) => "{PropertyName} must exceed " + minLength + " characters";
     }
 }
