@@ -17,7 +17,7 @@ namespace EmemIsaac.QuizManager.Application.Features.Questions.Queries.GetQuizQu
 
         public async Task<List<QuestionVM>> Handle(GetQuestionsQuery request, CancellationToken cancellationToken)
         {
-            var Questions = await _QuestionsRepository.GetBySubjectAsync(request.SubjectId);
+            var Questions = await _QuestionsRepository.GetBySubjectAsync(request.QuizId);
             return _mapper.Map<List<QuestionVM>>(Questions);
         }
     }
